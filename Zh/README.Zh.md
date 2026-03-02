@@ -109,6 +109,26 @@
 
 ## 用户使用指南
 
+### 软件安装
+
+[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
+
+[Window 版本即将推出]
+
+---
+
+### 忘记密码处理
+
+密码在本地加密存储，**无法恢复**。若忘记密码，只能通过「删除密码并清除所有数据」后，用备份的私钥文件重新导入。
+
+![忘记密码](../assets/reset_password-cd03bbce-379b-4b48-bf1f-ff6e7ddd1370.png)
+
+> ⚠️ **操作前务必确认**：已安全备份两个私钥文件（`xxx_secure_meta.data` 和 `xxx_secure_private_key`），否则将永久失去资产访问权限。
+
+---
+
+
+
 ### 一、首次使用流程
 
 #### 1. 创建主密码
@@ -196,25 +216,7 @@
 
 ---
 
-### 三、忘记密码处理
-
-密码在本地加密存储，**无法恢复**。若忘记密码，只能通过「删除密码并清除所有数据」后，用备份的私钥文件重新导入。
-
-![忘记密码](../assets/reset_password-cd03bbce-379b-4b48-bf1f-ff6e7ddd1370.png)
-
-> ⚠️ **操作前务必确认**：已安全备份两个私钥文件（`xxx_secure_meta.data` 和 `xxx_secure_private_key`），否则将永久失去资产访问权限。
-
----
-
-### 软件安装
-
-[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
-
-[Window 版本即将推出]
-
----
-
-### 安全特性
+## 安全特性
 
 - ✅ **机密性**：军事级加密
 - ✅ **完整性**：GCM 模式防止数据篡改

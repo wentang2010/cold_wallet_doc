@@ -102,6 +102,25 @@ Keeping assets on exchanges or in hot wallets is essentially exposing private ke
 
 ## User Guide
 
+### Software Installation
+
+[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
+[window version will come soon.]
+
+***
+
+### Forgot Password
+
+The password is stored encrypted locally and **cannot be recovered**. If you forget your password, you can only clear all data via "Delete Password and Clear All Data", then re-import using your backed-up private key files.
+
+![Forgot Password](../assets/reset_password-cd03bbce-379b-4b48-bf1f-ff6e7ddd1370.png)
+
+> ⚠️ **Confirm before proceeding**: You must have safely backed up both private key files (`xxx_secure_meta.data` and `xxx_secure_private_key`), otherwise you will permanently lose access to your assets.
+
+***
+
+
+
 ### I. First-Time Setup
 
 #### 1. Create Master Password
@@ -189,24 +208,6 @@ View/edit wallet name, version info, and log out.
 
 ***
 
-### III. Forgot Password
-
-The password is stored encrypted locally and **cannot be recovered**. If you forget your password, you can only clear all data via "Delete Password and Clear All Data", then re-import using your backed-up private key files.
-
-![Forgot Password](../assets/reset_password-cd03bbce-379b-4b48-bf1f-ff6e7ddd1370.png)
-
-> ⚠️ **Confirm before proceeding**: You must have safely backed up both private key files (`xxx_secure_meta.data` and `xxx_secure_private_key`), otherwise you will permanently lose access to your assets.
-
-***
-
-### Software Installation
-
-
-
-[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
-[window version will come soon.]
-
-***
 
 ### Security Features
 
