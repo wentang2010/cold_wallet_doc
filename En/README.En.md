@@ -201,6 +201,9 @@ The password is stored encrypted locally and **cannot be recovered**. If you for
 
 ### Software Installation
 
+window version will come soon.
+[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
+
 ***
 
 ### Security Features

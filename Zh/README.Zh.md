@@ -205,6 +205,9 @@
 
 ### 软件安装
 
+Window 版本即将推出
+[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
+
 
 ---
 
