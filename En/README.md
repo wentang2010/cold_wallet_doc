@@ -263,6 +263,16 @@ The two private key files are `xxx_secure_meta.data` and `xxx_secure_private_key
 1. If you lose `xxx_secure_private_key`, you will lose control of your wallet assets and cannot perform transfers or other signing operations.
 2. If you lose `xxx_secure_meta.data` and you have deleted the wallet data (unable to log in to the wallet Home page), you will also lose control of your assets. If you can log in to the wallet normally and see the wallet balance, even if you have lost `xxx_secure_meta.data`, you can still transfer assets to a new wallet address using `xxx_secure_private_key`.
 
+### 6. Antivirus software reports a threat when selecting key files on Windows.
+
+Some antivirus software (e.g., 360, Huorong, etc.) may show warnings or block operations when you select key files (`xxx_secure_meta.data` or `xxx_secure_private_key`). This is a **false positive**—this software is a legitimate, secure cold wallet application.
+
+**Why false positives occur:**
+
+When you choose a file, the application uses a dialog library (e.g., `native-dialog`) that invokes the **Windows native file picker dialog**. This dialog is implemented by Windows via **COM/DCOM interfaces** (such as `IFileDialog`), which are legitimate system APIs.
+
+However, some malware also calls similar system dialog APIs to display fake UAC prompts, phishing interfaces, or other deceptive dialogs to trick users into granting permissions or entering sensitive information. When antivirus software uses **behavioral heuristics**, it may flag the act of "invoking system dialogs" as suspicious, leading to false positives against this application. This results from the combination of system architecture and detection strategies, and is unrelated to the security of the software itself.
+
 ***
 
 ## Disclaimer
