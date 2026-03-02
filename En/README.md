@@ -4,7 +4,7 @@
 
 ***
 
-## [Download Software](#Software Installation)
+## [Download Software](#software-install)
 
 ## Why Cold Wallet? — The Current State of Asset Security
 
@@ -104,7 +104,7 @@ Keeping assets on exchanges or in hot wallets is essentially exposing private ke
 
 ## User Guide
 
-### Software Installation
+### Software Installation {#software-install}
 
 [macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg) \[window version will come soon.]
 

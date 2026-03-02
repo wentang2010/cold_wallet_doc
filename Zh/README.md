@@ -4,7 +4,7 @@
 
 ***
 
-## [软件下载](#软件安装)
+## [软件下载](#software-install)
 
 ## 为什么需要冷钱包？—— 资产安全现状
 
@@ -104,7 +104,7 @@
 
 ## 用户使用指南
 
-### 软件安装
+### 软件安装 {#software-install}
 
 [macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
 
