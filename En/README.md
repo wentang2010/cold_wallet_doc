@@ -4,7 +4,7 @@
 
 ***
 
-## [Download Software](./#software-installation)
+## [Download Software](#Software Installation)
 
 ## Why Cold Wallet? — The Current State of Asset Security
 
