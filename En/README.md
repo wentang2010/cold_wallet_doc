@@ -106,7 +106,7 @@ Keeping assets on exchanges or in hot wallets is essentially exposing private ke
 
 ### Software Installation {#software-install}
 
-[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg) \[window version will come soon.]
+[macOS Version](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg) \[window version will come soon.]
 
 ***
 
