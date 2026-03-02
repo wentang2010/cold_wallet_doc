@@ -4,6 +4,8 @@
 
 ***
 
+## [Download Software](./#software-installation)
+
 ## Why Cold Wallet? — The Current State of Asset Security
 
 ### Frequent and Severe Wallet Theft Incidents
@@ -104,8 +106,7 @@ Keeping assets on exchanges or in hot wallets is essentially exposing private ke
 
 ### Software Installation
 
-[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg)
-[window version will come soon.]
+[macOS 下载](https://github.com/wentang2010/cold_wallet_doc/releases/download/v0.3.0/Cold_Wallet-0.3.0.dmg) \[window version will come soon.]
 
 ***
 
@@ -113,13 +114,11 @@ Keeping assets on exchanges or in hot wallets is essentially exposing private ke
 
 The password is stored encrypted locally and **cannot be recovered**. If you forget your password, you can only clear all data via "Delete Password and Clear All Data", then re-import using your backed-up private key files.
 
-![Forgot Password](../assets/reset_password-cd03bbce-379b-4b48-bf1f-ff6e7ddd1370.png)
+![Forgot Password](.gitbook/assets/reset_password-cd03bbce-379b-4b48-bf1f-ff6e7ddd1370.png)
 
 > ⚠️ **Confirm before proceeding**: You must have safely backed up both private key files (`xxx_secure_meta.data` and `xxx_secure_private_key`), otherwise you will permanently lose access to your assets.
 
 ***
-
-
 
 ### I. First-Time Setup
 
@@ -127,7 +126,7 @@ The password is stored encrypted locally and **cannot be recovered**. If you for
 
 On first launch, you need to create a strong password to protect your encrypted wallet. The password must: be at least 8 characters, include uppercase and lowercase letters and numbers, and you must agree to the terms of service.
 
-![Create Master Password](../assets/create_password-9018e9d7-28e6-4268-a15f-628719b72a7e.png)
+![Create Master Password](.gitbook/assets/create_password-9018e9d7-28e6-4268-a15f-628719b72a7e.png)
 
 #### 2. Wallet Setup
 
@@ -144,7 +143,7 @@ Complete key generation and saving in three steps:
 2. **Save**: Save the files to a secure location (USB flash drive recommended); **store the two files separately** (`xxx_secure_private_key` and `xxx_secure_meta.data`)
 3. **Continue**: After saving, proceed to the main interface
 
-![Generate Key Files](../assets/generate_key_files-31076c48-ea1c-4cfe-ba85-46eaeb77975b.png)
+![Generate Key Files](.gitbook/assets/generate_key_files-31076c48-ea1c-4cfe-ba85-46eaeb77975b.png)
 
 > ⚠️ **Important**: Currently only Solana network is supported. Losing either key file will result in unrecoverable assets.
 
@@ -156,7 +155,7 @@ Complete key generation and saving in three steps:
 
 Existing wallet users can log in by entering the master password.
 
-![Login](../assets/login-40cb4979-8953-4bf7-b527-f43e5a534f30.png)
+![Login](.gitbook/assets/login-40cb4979-8953-4bf7-b527-f43e5a534f30.png)
 
 #### 2. Home
 
@@ -165,14 +164,14 @@ The home screen displays the current wallet address, asset list, and Receive / S
 * **No Key**: Indicates the private key is not loaded; you can view the address and balance but **cannot send**
 * **Key Loaded**: Private key is loaded; you can perform send operations
 
-![Home](../assets/home-22d9a247-8de3-4eed-acd9-11ea2eb34e88.png)
+![Home](.gitbook/assets/home-22d9a247-8de3-4eed-acd9-11ea2eb34e88.png)
 
 #### 3. Keys Management
 
 * **Not Loaded**: Click "Load Key" and select the `xxx_secure_private_key` file to load
 * **Loaded**: Shows green "Key Loaded"; click "Unload Key" to unload (clears sensitive information)
 
-![Key Loaded](../assets/key_loaded-577a4bb6-dafa-4149-a46d-84cf8e044c65.png)
+![Key Loaded](.gitbook/assets/key_loaded-577a4bb6-dafa-4149-a46d-84cf8e044c65.png)
 
 > You must load the key before sending assets. If you click Send on the home screen without loading, you will be redirected to the Keys management page.
 
@@ -180,13 +179,13 @@ The home screen displays the current wallet address, asset list, and Receive / S
 
 Create new wallets, import wallet files, and view the list of loaded wallets and their balances.
 
-![Wallet Management](../assets/wallet_management-97e34b8a-1890-4b7d-b88c-9791974d0328.png)
+![Wallet Management](.gitbook/assets/wallet_management-97e34b8a-1890-4b7d-b88c-9791974d0328.png)
 
 #### 5. Receive
 
 Displays the wallet address as a QR code and text; you can copy the address. **No key loading required** to receive.
 
-![Receive](../assets/receive-f4f349c7-59f6-498e-ab68-e2fe430482b6.png)
+![Receive](.gitbook/assets/receive-f4f349c7-59f6-498e-ab68-e2fe430482b6.png)
 
 > Only Solana (SOL) and SPL tokens can be sent to this address.
 
@@ -198,16 +197,15 @@ Select a token, enter the recipient address and amount, then click Send. Note:
 * The wallet reserves approximately 0.01 SOL for transaction fees
 * Use the Max button to fill in the maximum sendable amount
 
-![Send](../assets/send-5be203ea-1cd6-4a2f-b1c5-6df3fca4ae23.png)
+![Send](.gitbook/assets/send-5be203ea-1cd6-4a2f-b1c5-6df3fca4ae23.png)
 
 #### 7. Profile
 
 View/edit wallet name, version info, and log out.
 
-![Profile](../assets/profile-b4a8bf54-c170-42a7-9de7-e68f9fd8b65e.png)
+![Profile](.gitbook/assets/profile-b4a8bf54-c170-42a7-9de7-e68f9fd8b65e.png)
 
 ***
-
 
 ### Security Features
 
